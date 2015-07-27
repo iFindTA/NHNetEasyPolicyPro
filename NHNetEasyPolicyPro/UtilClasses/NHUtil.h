@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  NHUtil.h
 //  NHNetEasyPolicyPro
 //
 //  Created by hu jiaju on 15-7-23.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface NHUtil : NSObject
 
-@property (strong, nonatomic) UIWindow *window;
++(NSString *)documentPath;
++(NSString *)filePath:(NSString *)fileName;
 
 @end
-

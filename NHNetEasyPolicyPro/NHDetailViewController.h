@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  NHDetailViewController.h
 //  NHNetEasyPolicyPro
 //
 //  Created by hu jiaju on 15-7-23.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface NHDetailViewController : UIViewController
 
 @end
-
