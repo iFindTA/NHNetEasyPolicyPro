@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NHCircleImageView : UIImageView
+@interface NHCircleImageView : UIView
 
 @property (nonatomic, strong)UIColor *borderColor,*pathColor;
 @property (nonatomic, assign)float borderWidth;

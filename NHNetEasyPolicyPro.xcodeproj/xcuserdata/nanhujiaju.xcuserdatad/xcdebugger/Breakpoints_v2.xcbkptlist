@@ -80,15 +80,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NHNetEasyPolicyPro/NHCircleImageView.m"
-            timestampString = "459654070.140184"
+            timestampString = "459655182.583966"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "-drawRect:"
             landmarkType = "5">
          </BreakpointContent>

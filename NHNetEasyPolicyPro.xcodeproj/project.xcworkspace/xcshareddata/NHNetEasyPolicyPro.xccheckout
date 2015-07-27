@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A5AFF3F-32F7-4434-A3FA-D1692E4CC0F2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NHNetEasyPolicyPro</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AAE3F049E6ABDC96498EB037451F6A2E10214C22</key>
+		<string>https://github.com/iFindTA/NHNetEasyPolicyPro.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NHNetEasyPolicyPro.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AAE3F049E6ABDC96498EB037451F6A2E10214C22</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iFindTA/NHNetEasyPolicyPro.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AAE3F049E6ABDC96498EB037451F6A2E10214C22</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AAE3F049E6ABDC96498EB037451F6A2E10214C22</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NHNetEasyPolicyPro</string>
+		</dict>
+	</array>
+</dict>
+</plist>

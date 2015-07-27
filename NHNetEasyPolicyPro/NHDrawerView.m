@@ -58,7 +58,18 @@
 
 -(void)drawRect:(CGRect)rect{
     [super drawRect:rect];
-    [self initialziedCustomSector];
+    
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+    // set the properties
+    CGContextSetAlpha(ctx, 0.6);
+    CGContextSetFillColorWithColor(ctx, self.lineColor.CGColor);
+    CGContextFillEllipseInRect(UIGraphicsGetCurrentContext(), rect);
+    
+    CGContextSetAlpha(ctx, 1.f);
+    CGRect rectToFill = CGRectMake(_lineWidth,_lineWidth, rect.size.width-_lineWidth*2, rect.size.width-_lineWidth*2);
+    CGContextSetFillColorWithColor(ctx, [UIColor whiteColor].CGColor);
+    CGContextFillEllipseInRect(UIGraphicsGetCurrentContext(), rectToFill);
 }
 
 -(void)initialziedCustomSector

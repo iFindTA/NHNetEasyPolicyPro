@@ -320,6 +320,21 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		606CE7B31B65C98D00CF058C /* SystemLibs */ = {
+			isa = PBXGroup;
+			children = (
+				606DD6B41B61DE970092B96F /* libsqlite3.dylib */,
+				6019FE321B60C63200B7F8C3 /* Security.framework */,
+				60C3DDBF1B60911600C50FD6 /* libz.dylib */,
+				60C3DDBD1B60910E00C50FD6 /* libxml2.dylib */,
+				60C3DDBB1B60910300C50FD6 /* CoreFoundation.framework */,
+				60C3DDB91B6090F700C50FD6 /* CFNetwork.framework */,
+				60C3DDB71B6090F000C50FD6 /* MobileCoreServices.framework */,
+				60C3DDB51B6090E800C50FD6 /* SystemConfiguration.framework */,
+			);
+			name = SystemLibs;
+			sourceTree = "<group>";
+		};
 		606DD6BF1B61E8E70092B96F /* NHPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,14 +399,6 @@
 		60C3DCCB1B608EFC00C50FD6 = {
 			isa = PBXGroup;
 			children = (
-				606DD6B41B61DE970092B96F /* libsqlite3.dylib */,
-				6019FE321B60C63200B7F8C3 /* Security.framework */,
-				60C3DDBF1B60911600C50FD6 /* libz.dylib */,
-				60C3DDBD1B60910E00C50FD6 /* libxml2.dylib */,
-				60C3DDBB1B60910300C50FD6 /* CoreFoundation.framework */,
-				60C3DDB91B6090F700C50FD6 /* CFNetwork.framework */,
-				60C3DDB71B6090F000C50FD6 /* MobileCoreServices.framework */,
-				60C3DDB51B6090E800C50FD6 /* SystemConfiguration.framework */,
 				60C3DDCB1B6094BE00C50FD6 /* Categories */,
 				60C3DCD61B608EFC00C50FD6 /* NHNetEasyPolicyPro */,
 				60C3DCF01B608EFC00C50FD6 /* NHNetEasyPolicyProTests */,
@@ -463,6 +470,7 @@
 		60C3DD051B6090B000C50FD6 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				606CE7B31B65C98D00CF058C /* SystemLibs */,
 				606DD6BF1B61E8E70092B96F /* NHPhotoBrowser */,
 				6019FE241B60B18600B7F8C3 /* JavascriptBridge */,
 				60C3DD2D1B6090B000C50FD6 /* JSONKit */,
