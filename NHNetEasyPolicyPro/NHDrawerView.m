@@ -72,32 +72,6 @@
     CGContextFillEllipseInRect(UIGraphicsGetCurrentContext(), rectToFill);
 }
 
--(void)initialziedCustomSector
-{
-    //*
-    //[[self.layer sublayers] makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    CGPoint arcCenter=self.center;
-    CGFloat radius = (self.bounds.size.width-_lineWidth)*0.5;
-    UIBezierPath *_bezierpath=[UIBezierPath   bezierPathWithArcCenter:arcCenter radius:radius startAngle:_startAngle endAngle:_endAngle clockwise:true];
-    //是否从点开始
-    //[_bezierpath addLineToPoint:arcCenter];
-    //是否闭环
-    //[_bezierpath closePath];
-    
-    
-    CAShapeLayer *_shapeLayer=[CAShapeLayer layer];
-    _shapeLayer.strokeColor = [_lineColor CGColor];
-    _shapeLayer.fillColor= [[UIColor clearColor] CGColor];
-    _shapeLayer.lineCap = kCALineCapRound;//制定边缘是圆的
-    _shapeLayer.lineWidth = _lineWidth;//线宽度
-    _shapeLayer.path = _bezierpath.CGPath;
-    _shapeLayer.contentsScale = [[UIScreen mainScreen] scale];
-    _shapeLayer.position =CGPointMake(-self.center.x+self.frame.size.width/2,-self.center.y+self.frame.size.height/2);
-    [self.layer addSublayer:_shapeLayer];
-    //*/
-    
-}
-
 @end
 @interface NHDrawerView ()
 
