@@ -113,6 +113,7 @@
     infoRect.origin.y += 200;
     
     NHCircleImageView *circleImage = [[NHCircleImageView alloc] initWithFrame:infoRect withImage:image];
+    [circleImage setPathColor:[UIColor whiteColor]];
     [self.view addSubview:circleImage];
 }
 

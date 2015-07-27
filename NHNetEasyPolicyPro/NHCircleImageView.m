@@ -21,7 +21,6 @@
     if (self) {
         _originImg = image;
         [self setDefaultParams];
-        [self setNeedsDisplay];
     }
     return self;
 }
@@ -29,6 +28,16 @@
 -(void)setDefaultParams{
     _pathColor = _borderColor = [[UIColor whiteColor] colorWithAlphaComponent:0.65];
     _borderWidth = 10;
+}
+
+-(void)willMoveToSuperview:(UIView *)newSuperview{
+    [super willMoveToSuperview:newSuperview];
+    [self setNeedsDisplay];
+}
+
+-(void)setPathColor:(UIColor *)pathColor{
+    _pathColor = pathColor;
+    [self setNeedsDisplay];
 }
 
 -(void)drawRect:(CGRect)rect{
